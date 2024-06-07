@@ -1,9 +1,9 @@
 package assignments;
 
 public class A_1{
+	public static void main(String[] args) 
+	{
 
-	public static void main(String[] args) {
-		
 		byte a1=-127;
 		System.out.println(a1);
 		short a2=32000;
@@ -22,10 +22,9 @@ public class A_1{
 		System.out.println(b);
 		String s="veer";
 		System.out.println(s);
-		
-		
+
+		A_1 a=new A_1();
+		a.getClass();
+		System.out.println(a);
 	}
-	
-	
-	
 }
