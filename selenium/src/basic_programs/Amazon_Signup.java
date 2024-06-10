@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Amazon_Signup 
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws InterruptedException
 	{
 		FirefoxDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -15,5 +15,11 @@ public class Amazon_Signup
 		driver.findElement(By.id("ap_password")).sendKeys("qwerty");
 		driver.findElement(By.id("continue")).click();
 		
+		Thread.sleep(2000);
+		driver.navigate().back();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		Thread.sleep(2000);
+		driver.navigate().forward();
 	}
 }
