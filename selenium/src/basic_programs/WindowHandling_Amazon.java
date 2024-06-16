@@ -44,6 +44,6 @@ public class WindowHandling_Amazon
 		WebElement buy=driver.findElement(By.name("proceedToRetailCheckout"));
 		buy.click();
 		
-//		driver.quit();
+		driver.quit();
 	}
 }

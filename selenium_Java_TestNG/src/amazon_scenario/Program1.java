@@ -1,12 +1,14 @@
-package basic_programs;
+package amazon_scenario;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Amazon_Login_Xpath
+public class Program1 
 {
-	public static void main(String[] args)
+	@Test
+	public static void login_amazon()
 	{
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -20,6 +22,6 @@ public class Amazon_Login_Xpath
 		psw.sendKeys("AddChinna");
 		WebElement signin_btn=driver.findElement(By.xpath("//input[@id='signInSubmit']"));
 		signin_btn.click();
-		
+		driver.close();
 	}
 }

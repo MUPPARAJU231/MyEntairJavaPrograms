@@ -1,12 +1,14 @@
-package basic_programs;
+package amazon_scenario;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Amazon_Login_Xpath
+public class Program2 
 {
-	public static void main(String[] args)
+	@Test
+	public static void search()
 	{
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -21,5 +23,10 @@ public class Amazon_Login_Xpath
 		WebElement signin_btn=driver.findElement(By.xpath("//input[@id='signInSubmit']"));
 		signin_btn.click();
 		
+		WebElement search_tf=driver.findElement(By.id("twotabsearchtextbox"));
+		search_tf.sendKeys("shoe");
+		WebElement search_btn=driver.findElement(By.xpath("//input[@id='nav-search-submit-button']"));
+		search_btn.click();
+		driver.quit();
 	}
 }

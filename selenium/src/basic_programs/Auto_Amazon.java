@@ -18,11 +18,11 @@ public class Auto_Amazon
 		Actions a=new Actions(driver);
 		a.moveToElement(accoun_list).click().perform();
 		WebElement signin=driver.findElement(By.name("email"));
-		signin.sendKeys("9494743231");
+		signin.sendKeys("9063332478");
 		WebElement cont_btn=driver.findElement(By.id("continue"));
 		cont_btn.click();
 		WebElement psw=driver.findElement(By.name("password"));
-		psw.sendKeys("123veR^2");
+		psw.sendKeys("AddChinna");
 		WebElement signin_btn=driver.findElement(By.id("signInSubmit"));
 		signin_btn.click();
 
