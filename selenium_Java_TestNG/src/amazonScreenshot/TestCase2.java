@@ -35,11 +35,11 @@ public class TestCase2 extends LaunchNQuit
 		gotokart.click();
 		WebElement buy=driver.findElement(By.name("proceedToRetailCheckout"));
 		buy.click();
-		driver.navigate().back();
-		WebElement logout=driver.findElement(By.xpath("//a[.='Sign Out']"));
-		Actions a=new Actions(driver);
-		a.moveToElement(logout);
-		Thread.sleep(2000);
-		a.click();
+//		driver.navigate().back();
+//		WebElement logout=driver.findElement(By.xpath("//a[.='Sign Out']"));
+//		Actions a=new Actions(driver);
+//		a.moveToElement(logout);
+//		Thread.sleep(2000);
+//		a.click();
 	}
 }

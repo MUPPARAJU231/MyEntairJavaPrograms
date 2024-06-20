@@ -39,7 +39,8 @@ public class LaunchNQuit
 		File source=a1.getScreenshotAs(OutputType.FILE);
 		File destination=new File("C:\\Users\\admin\\OneDrive\\Desktop\\MKT\\SHOT"+Math.random()+".png");
 		FileHandler.copy(source, destination);
-
+		
+		driver.navigate().back();
 		WebElement logout=driver.findElement(By.xpath("//a[.='Sign Out']"));
 		Actions a=new Actions(driver);
 		a.moveToElement(logout);

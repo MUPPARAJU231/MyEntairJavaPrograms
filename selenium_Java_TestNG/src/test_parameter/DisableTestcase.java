@@ -2,7 +2,7 @@ package test_parameter;
 
 import org.testng.annotations.Test;
 
-public class DiableTestcase 
+public class DisableTestcase 
 {
     @Test(enabled=false)
     void add()
