@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="synchronization_Selenium_Waits.Explicit_Wait">
+      <class name="dataProvider.DP_Facebook_regi">
         <methods>
-          <include name="testcase1"/>
+          <include name="registration"/>
         </methods>
-      </class> <!-- synchronization_Selenium_Waits.Explicit_Wait -->
+      </class> <!-- dataProvider.DP_Facebook_regi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

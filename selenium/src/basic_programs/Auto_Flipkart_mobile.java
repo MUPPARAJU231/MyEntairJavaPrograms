@@ -1,5 +1,7 @@
 package basic_programs;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -16,8 +18,8 @@ public class Auto_Flipkart_mobile
 		search_tf.sendKeys("mobile");
 		search_tf.sendKeys(Keys.ENTER);
 
-		WebElement mobile1=driver.findElement(By.className("_5OesEi"));
-		mobile1.click();
+		List<WebElement> mobile1=driver.findElements(By.xpath("//div[@class='yKfJKb row']"));
+		mobile1.get(0).click();
 		
 	}
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="26" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T16:15:17 IST" name="CrossBrowserTesting" finished-at="2024-06-20T16:17:10 IST" duration-ms="112893">
+  <suite started-at="2024-06-23T13:37:52 IST" name="Suite" finished-at="2024-06-23T13:50:26 IST" duration-ms="754449">
     <groups>
     </groups>
-    <test started-at="2024-06-20T16:15:17 IST" name="Testing on Chrome" finished-at="2024-06-20T16:15:51 IST" duration-ms="34075">
-      <class name="parallel_Testing.CrossBrowsertesting">
-        <test-method signature="testcase1(java.lang.String)[pri:0, instance:parallel_Testing.CrossBrowsertesting@a2431d0]" started-at="2024-06-20T16:15:17 IST" name="testcase1" finished-at="2024-06-20T16:15:51 IST" duration-ms="33917" status="PASS">
+    <test started-at="2024-06-23T13:37:52 IST" name="Test on Chrome" finished-at="2024-06-23T13:47:37 IST" duration-ms="584612">
+      <class name="amazon10ScenariosParallelTesting.Mango">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3ee37e5a]" started-at="2024-06-23T13:43:18 IST" name="launch" finished-at="2024-06-23T13:43:55 IST" duration-ms="37048" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,12 +17,209 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-      </class> <!-- parallel_Testing.CrossBrowsertesting -->
-    </test> <!-- Testing on Chrome -->
-    <test started-at="2024-06-20T16:15:51 IST" name="Testing on Edge" finished-at="2024-06-20T16:16:17 IST" duration-ms="26024">
-      <class name="parallel_Testing.CrossBrowsertesting">
-        <test-method signature="testcase1(java.lang.String)[pri:0, instance:parallel_Testing.CrossBrowsertesting@1a18644]" started-at="2024-06-20T16:15:51 IST" name="testcase1" finished-at="2024-06-20T16:16:17 IST" duration-ms="26001" status="PASS">
+        </test-method> <!-- launch -->
+        <test-method signature="mango()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3ee37e5a]" started-at="2024-06-23T13:43:55 IST" name="mango" finished-at="2024-06-23T13:44:08 IST" duration-ms="12626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3ee37e5a]" started-at="2024-06-23T13:44:08 IST" name="quit" finished-at="2024-06-23T13:44:09 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mango -->
+      <class name="amazon10ScenariosParallelTesting.DealsofTheDay">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@2805d709]" started-at="2024-06-23T13:41:53 IST" name="launch" finished-at="2024-06-23T13:42:39 IST" duration-ms="46311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="deal()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@2805d709]" started-at="2024-06-23T13:42:39 IST" name="deal" finished-at="2024-06-23T13:43:11 IST" duration-ms="31856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deal -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@2805d709]" started-at="2024-06-23T13:43:11 IST" name="quit" finished-at="2024-06-23T13:43:18 IST" duration-ms="7162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.DealsofTheDay -->
+      <class name="amazon10ScenariosParallelTesting.Mouse">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@71def8f8]" started-at="2024-06-23T13:37:52 IST" name="launch" finished-at="2024-06-23T13:38:15 IST" duration-ms="23199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmouse()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@71def8f8]" started-at="2024-06-23T13:38:15 IST" name="searchmouse" finished-at="2024-06-23T13:38:33 IST" duration-ms="17794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmouse -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@71def8f8]" started-at="2024-06-23T13:38:33 IST" name="quit" finished-at="2024-06-23T13:38:37 IST" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mouse -->
+      <class name="amazon10ScenariosParallelTesting.Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@434a63ab]" started-at="2024-06-23T13:39:36 IST" name="launch" finished-at="2024-06-23T13:40:22 IST" duration-ms="46189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchshoe()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@434a63ab]" started-at="2024-06-23T13:40:22 IST" name="searchshoe" finished-at="2024-06-23T13:40:38 IST" duration-ms="16068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshoe -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@434a63ab]" started-at="2024-06-23T13:40:38 IST" name="quit" finished-at="2024-06-23T13:40:42 IST" duration-ms="4005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Shoe -->
+      <class name="amazon10ScenariosParallelTesting.MoblieCover">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@6e0f5f7f]" started-at="2024-06-23T13:40:42 IST" name="launch" finished-at="2024-06-23T13:41:16 IST" duration-ms="33460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobileCover()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@6e0f5f7f]" started-at="2024-06-23T13:41:16 IST" name="searchmobileCover" finished-at="2024-06-23T13:41:50 IST" duration-ms="34149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobileCover -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@6e0f5f7f]" started-at="2024-06-23T13:41:50 IST" name="quit" finished-at="2024-06-23T13:41:53 IST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.MoblieCover -->
+      <class name="amazon10ScenariosParallelTesting.Camera35">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@2ea41516]" started-at="2024-06-23T13:44:09 IST" name="launch" finished-at="2024-06-23T13:44:32 IST" duration-ms="22402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="camera()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@2ea41516]" started-at="2024-06-23T13:44:32 IST" name="camera" finished-at="2024-06-23T13:44:50 IST" duration-ms="17924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camera -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@2ea41516]" started-at="2024-06-23T13:44:50 IST" name="quit" finished-at="2024-06-23T13:44:52 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Camera35 -->
+      <class name="amazon10ScenariosParallelTesting.Search_Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@194bcebf]" started-at="2024-06-23T13:44:52 IST" name="launch" finished-at="2024-06-23T13:45:13 IST" duration-ms="21791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="home()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@194bcebf]" started-at="2024-06-23T13:45:13 IST" name="home" finished-at="2024-06-23T13:45:38 IST" duration-ms="24884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@194bcebf]" started-at="2024-06-23T13:45:38 IST" name="quit" finished-at="2024-06-23T13:45:43 IST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Search_Shoe -->
+      <class name="amazon10ScenariosParallelTesting.Books">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Books@37d4349f]" started-at="2024-06-23T13:38:37 IST" name="launch" finished-at="2024-06-23T13:39:10 IST" duration-ms="33274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="book()[pri:0, instance:amazon10ScenariosParallelTesting.Books@37d4349f]" started-at="2024-06-23T13:39:10 IST" name="book" finished-at="2024-06-23T13:39:32 IST" duration-ms="21609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Books@37d4349f]" started-at="2024-06-23T13:39:32 IST" name="quit" finished-at="2024-06-23T13:39:36 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Books -->
+      <class name="amazon10ScenariosParallelTesting.Redmi">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@17497425]" started-at="2024-06-23T13:45:43 IST" name="launch" finished-at="2024-06-23T13:46:06 IST" duration-ms="23363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="redmicheck()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@17497425]" started-at="2024-06-23T13:46:06 IST" name="redmicheck" finished-at="2024-06-23T13:46:42 IST" duration-ms="35875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redmicheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@17497425]" started-at="2024-06-23T13:46:42 IST" name="quit" finished-at="2024-06-23T13:46:50 IST" duration-ms="7861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Redmi -->
+      <class name="amazon10ScenariosParallelTesting.Mobile">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@f0da945]" started-at="2024-06-23T13:46:50 IST" name="launch" finished-at="2024-06-23T13:47:15 IST" duration-ms="25815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobile()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@f0da945]" started-at="2024-06-23T13:47:15 IST" name="searchmobile" finished-at="2024-06-23T13:47:31 IST" duration-ms="15720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@f0da945]" started-at="2024-06-23T13:47:31 IST" name="quit" finished-at="2024-06-23T13:47:37 IST" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mobile -->
+    </test> <!-- Test on Chrome -->
+    <test started-at="2024-06-23T13:37:52 IST" name="Test on Edge" finished-at="2024-06-23T13:48:33 IST" duration-ms="641375">
+      <class name="amazon10ScenariosParallelTesting.DealsofTheDay">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@3f6f6701]" started-at="2024-06-23T13:43:15 IST" name="launch" finished-at="2024-06-23T13:43:31 IST" duration-ms="16515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,12 +229,209 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-      </class> <!-- parallel_Testing.CrossBrowsertesting -->
-    </test> <!-- Testing on Edge -->
-    <test started-at="2024-06-20T16:16:17 IST" name="Testing on firefox" finished-at="2024-06-20T16:17:10 IST" duration-ms="52582">
-      <class name="parallel_Testing.CrossBrowsertesting">
-        <test-method signature="testcase1(java.lang.String)[pri:0, instance:parallel_Testing.CrossBrowsertesting@4738a206]" started-at="2024-06-20T16:16:17 IST" name="testcase1" finished-at="2024-06-20T16:17:10 IST" duration-ms="52566" status="PASS">
+        </test-method> <!-- launch -->
+        <test-method signature="deal()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@3f6f6701]" started-at="2024-06-23T13:43:31 IST" name="deal" finished-at="2024-06-23T13:44:25 IST" duration-ms="53844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deal -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@3f6f6701]" started-at="2024-06-23T13:44:25 IST" name="quit" finished-at="2024-06-23T13:44:32 IST" duration-ms="6515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.DealsofTheDay -->
+      <class name="amazon10ScenariosParallelTesting.Mango">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3527942a]" started-at="2024-06-23T13:44:32 IST" name="launch" finished-at="2024-06-23T13:44:57 IST" duration-ms="25385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="mango()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3527942a]" started-at="2024-06-23T13:44:57 IST" name="mango" finished-at="2024-06-23T13:45:08 IST" duration-ms="10736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@3527942a]" started-at="2024-06-23T13:45:08 IST" name="quit" finished-at="2024-06-23T13:45:11 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mango -->
+      <class name="amazon10ScenariosParallelTesting.Mouse">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@73e9cf30]" started-at="2024-06-23T13:37:52 IST" name="launch" finished-at="2024-06-23T13:38:31 IST" duration-ms="38406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmouse()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@73e9cf30]" started-at="2024-06-23T13:38:31 IST" name="searchmouse" finished-at="2024-06-23T13:38:54 IST" duration-ms="23849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmouse -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@73e9cf30]" started-at="2024-06-23T13:38:54 IST" name="quit" finished-at="2024-06-23T13:39:10 IST" duration-ms="15590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mouse -->
+      <class name="amazon10ScenariosParallelTesting.MoblieCover">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@242b836]" started-at="2024-06-23T13:41:54 IST" name="launch" finished-at="2024-06-23T13:42:46 IST" duration-ms="52108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobileCover()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@242b836]" started-at="2024-06-23T13:42:46 IST" name="searchmobileCover" finished-at="2024-06-23T13:43:03 IST" duration-ms="16914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobileCover -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@242b836]" started-at="2024-06-23T13:43:03 IST" name="quit" finished-at="2024-06-23T13:43:15 IST" duration-ms="11923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.MoblieCover -->
+      <class name="amazon10ScenariosParallelTesting.Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@2d52216b]" started-at="2024-06-23T13:40:22 IST" name="launch" finished-at="2024-06-23T13:41:12 IST" duration-ms="50029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchshoe()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@2d52216b]" started-at="2024-06-23T13:41:12 IST" name="searchshoe" finished-at="2024-06-23T13:41:50 IST" duration-ms="37787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshoe -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@2d52216b]" started-at="2024-06-23T13:41:50 IST" name="quit" finished-at="2024-06-23T13:41:54 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Shoe -->
+      <class name="amazon10ScenariosParallelTesting.Camera35">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@942a29c]" started-at="2024-06-23T13:45:11 IST" name="launch" finished-at="2024-06-23T13:45:39 IST" duration-ms="28365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="camera()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@942a29c]" started-at="2024-06-23T13:45:39 IST" name="camera" finished-at="2024-06-23T13:45:58 IST" duration-ms="18600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camera -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@942a29c]" started-at="2024-06-23T13:45:58 IST" name="quit" finished-at="2024-06-23T13:46:00 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Camera35 -->
+      <class name="amazon10ScenariosParallelTesting.Search_Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@1ed6388a]" started-at="2024-06-23T13:46:00 IST" name="launch" finished-at="2024-06-23T13:46:42 IST" duration-ms="42243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="home()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@1ed6388a]" started-at="2024-06-23T13:46:42 IST" name="home" finished-at="2024-06-23T13:47:08 IST" duration-ms="26332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@1ed6388a]" started-at="2024-06-23T13:47:08 IST" name="quit" finished-at="2024-06-23T13:47:13 IST" duration-ms="4689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Search_Shoe -->
+      <class name="amazon10ScenariosParallelTesting.Books">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Books@771a660]" started-at="2024-06-23T13:39:10 IST" name="launch" finished-at="2024-06-23T13:39:46 IST" duration-ms="36184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="book()[pri:0, instance:amazon10ScenariosParallelTesting.Books@771a660]" started-at="2024-06-23T13:39:46 IST" name="book" finished-at="2024-06-23T13:40:19 IST" duration-ms="32528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Books@771a660]" started-at="2024-06-23T13:40:19 IST" name="quit" finished-at="2024-06-23T13:40:22 IST" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Books -->
+      <class name="amazon10ScenariosParallelTesting.Redmi">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@5a45133e]" started-at="2024-06-23T13:47:13 IST" name="launch" finished-at="2024-06-23T13:47:31 IST" duration-ms="18284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="redmicheck()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@5a45133e]" started-at="2024-06-23T13:47:31 IST" name="redmicheck" finished-at="2024-06-23T13:47:57 IST" duration-ms="25942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redmicheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@5a45133e]" started-at="2024-06-23T13:47:57 IST" name="quit" finished-at="2024-06-23T13:48:01 IST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Redmi -->
+      <class name="amazon10ScenariosParallelTesting.Mobile">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@534a5a98]" started-at="2024-06-23T13:48:01 IST" name="launch" finished-at="2024-06-23T13:48:22 IST" duration-ms="20738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobile()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@534a5a98]" started-at="2024-06-23T13:48:22 IST" name="searchmobile" finished-at="2024-06-23T13:48:31 IST" duration-ms="8965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@534a5a98]" started-at="2024-06-23T13:48:31 IST" name="quit" finished-at="2024-06-23T13:48:33 IST" duration-ms="2863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mobile -->
+    </test> <!-- Test on Edge -->
+    <test started-at="2024-06-23T13:37:52 IST" name="Test on Firefox" finished-at="2024-06-23T13:50:26 IST" duration-ms="754449">
+      <class name="amazon10ScenariosParallelTesting.Mango">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mango@4d5650ae]" started-at="2024-06-23T13:45:14 IST" name="launch" finished-at="2024-06-23T13:45:58 IST" duration-ms="43866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,8 +441,451 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-      </class> <!-- parallel_Testing.CrossBrowsertesting -->
-    </test> <!-- Testing on firefox -->
-  </suite> <!-- CrossBrowserTesting -->
+        </test-method> <!-- launch -->
+        <test-method signature="mango()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@4d5650ae]" started-at="2024-06-23T13:45:58 IST" name="mango" finished-at="2024-06-23T13:46:00 IST" duration-ms="2818" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [04256357-e014-4f3f-a33f-e3f974372ab8, clickElement {id=605d3c5f-7d9f-4ab2-81df-ed462f56386b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:34822, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20920, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:34822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (04256357-e014-4f3f-a33f-e3f974372ab8)] -> id: searchDropdownBox]
+Session ID: 04256357-e014-4f3f-a33f-e3f974372ab8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [04256357-e014-4f3f-a33f-e3f974372ab8, clickElement {id=605d3c5f-7d9f-4ab2-81df-ed462f56386b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:34822, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20920, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:34822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (04256357-e014-4f3f-a33f-e3f974372ab8)] -> id: searchDropdownBox]
+Session ID: 04256357-e014-4f3f-a33f-e3f974372ab8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at amazon10ScenariosParallelTesting.Mango.mango(Mango.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mango@4d5650ae]" started-at="2024-06-23T13:46:00 IST" name="quit" finished-at="2024-06-23T13:46:12 IST" duration-ms="11513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mango -->
+      <class name="amazon10ScenariosParallelTesting.DealsofTheDay">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@70e9c95d]" started-at="2024-06-23T13:43:48 IST" name="launch" finished-at="2024-06-23T13:44:35 IST" duration-ms="47186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="deal()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@70e9c95d]" started-at="2024-06-23T13:44:35 IST" name="deal" finished-at="2024-06-23T13:45:04 IST" duration-ms="28860" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: li[aria-posinset='1']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [44eab8b4-8e3b-4f29-b7db-d9667f0cbd36, findElement {value=li[aria-posinset='1'], using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:28777, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28496, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:28777/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 44eab8b4-8e3b-4f29-b7db-d9667f0cbd36]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: li[aria-posinset='1']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [44eab8b4-8e3b-4f29-b7db-d9667f0cbd36, findElement {value=li[aria-posinset='1'], using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:28777, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28496, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:28777/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 44eab8b4-8e3b-4f29-b7db-d9667f0cbd36
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at amazon10ScenariosParallelTesting.DealsofTheDay.deal(DealsofTheDay.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deal -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.DealsofTheDay@70e9c95d]" started-at="2024-06-23T13:45:04 IST" name="quit" finished-at="2024-06-23T13:45:14 IST" duration-ms="9758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.DealsofTheDay -->
+      <class name="amazon10ScenariosParallelTesting.Mouse">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@5e600dd5]" started-at="2024-06-23T13:37:52 IST" name="launch" finished-at="2024-06-23T13:38:44 IST" duration-ms="51689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmouse()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@5e600dd5]" started-at="2024-06-23T13:38:44 IST" name="searchmouse" finished-at="2024-06-23T13:39:03 IST" duration-ms="18725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmouse -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mouse@5e600dd5]" started-at="2024-06-23T13:39:03 IST" name="quit" finished-at="2024-06-23T13:39:22 IST" duration-ms="19726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mouse -->
+      <class name="amazon10ScenariosParallelTesting.Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@5d534f5d]" started-at="2024-06-23T13:40:49 IST" name="launch" finished-at="2024-06-23T13:41:42 IST" duration-ms="53164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchshoe()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@5d534f5d]" started-at="2024-06-23T13:41:42 IST" name="searchshoe" finished-at="2024-06-23T13:41:55 IST" duration-ms="13059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchshoe -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Shoe@5d534f5d]" started-at="2024-06-23T13:41:55 IST" name="quit" finished-at="2024-06-23T13:42:17 IST" duration-ms="22201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Shoe -->
+      <class name="amazon10ScenariosParallelTesting.MoblieCover">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@2e3967ea]" started-at="2024-06-23T13:42:17 IST" name="launch" finished-at="2024-06-23T13:43:13 IST" duration-ms="56081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobileCover()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@2e3967ea]" started-at="2024-06-23T13:43:13 IST" name="searchmobileCover" finished-at="2024-06-23T13:43:27 IST" duration-ms="14302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobileCover -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.MoblieCover@2e3967ea]" started-at="2024-06-23T13:43:28 IST" name="quit" finished-at="2024-06-23T13:43:48 IST" duration-ms="20363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.MoblieCover -->
+      <class name="amazon10ScenariosParallelTesting.Camera35">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@a38c7fe]" started-at="2024-06-23T13:46:12 IST" name="launch" finished-at="2024-06-23T13:46:51 IST" duration-ms="38673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="camera()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@a38c7fe]" started-at="2024-06-23T13:46:51 IST" name="camera" finished-at="2024-06-23T13:47:21 IST" duration-ms="30797" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <span class="a-size-medium a-color-base a-text-normal"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2c691d7b-f866-484c-9c94-e171fdc296b9, clickElement {id=af3b8d59-ace8-43cb-ae04-6882aec842ba}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:17376, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14648, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:17376/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (2c691d7b-f866-484c-9c94-e171fdc296b9)] -> xpath: (//span[@class='a-size-medium a-color-base a-text-normal'])[12]]
+Session ID: 2c691d7b-f866-484c-9c94-e171fdc296b9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <span class="a-size-medium a-color-base a-text-normal"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2c691d7b-f866-484c-9c94-e171fdc296b9, clickElement {id=af3b8d59-ace8-43cb-ae04-6882aec842ba}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:17376, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14648, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:17376/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (2c691d7b-f866-484c-9c94-e171fdc296b9)] -> xpath: (//span[@class='a-size-medium a-color-base a-text-normal'])[12]]
+Session ID: 2c691d7b-f866-484c-9c94-e171fdc296b9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at amazon10ScenariosParallelTesting.Camera35.camera(Camera35.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camera -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Camera35@a38c7fe]" started-at="2024-06-23T13:47:21 IST" name="quit" finished-at="2024-06-23T13:47:33 IST" duration-ms="11941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Camera35 -->
+      <class name="amazon10ScenariosParallelTesting.Search_Shoe">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@6fdbe764]" started-at="2024-06-23T13:47:33 IST" name="launch" finished-at="2024-06-23T13:47:59 IST" duration-ms="25951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="home()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@6fdbe764]" started-at="2024-06-23T13:47:59 IST" name="home" finished-at="2024-06-23T13:48:03 IST" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Search_Shoe@6fdbe764]" started-at="2024-06-23T13:48:03 IST" name="quit" finished-at="2024-06-23T13:48:15 IST" duration-ms="11616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Search_Shoe -->
+      <class name="amazon10ScenariosParallelTesting.Books">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Books@576d5deb]" started-at="2024-06-23T13:39:22 IST" name="launch" finished-at="2024-06-23T13:40:25 IST" duration-ms="62964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="book()[pri:0, instance:amazon10ScenariosParallelTesting.Books@576d5deb]" started-at="2024-06-23T13:40:25 IST" name="book" finished-at="2024-06-23T13:40:27 IST" duration-ms="2168" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2885d32c-bbdc-4d69-adac-d4ea88d59dcf, clickElement {id=ed406be3-61cf-445e-9a3e-2f95be54aebb}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:47495, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 16732, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:47495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (2885d32c-bbdc-4d69-adac-d4ea88d59dcf)] -> id: searchDropdownBox]
+Session ID: 2885d32c-bbdc-4d69-adac-d4ea88d59dcf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <select id="searchDropdownBox" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" name="url"> could not be scrolled into view
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2885d32c-bbdc-4d69-adac-d4ea88d59dcf, clickElement {id=ed406be3-61cf-445e-9a3e-2f95be54aebb}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:47495, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 16732, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:47495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (2885d32c-bbdc-4d69-adac-d4ea88d59dcf)] -> id: searchDropdownBox]
+Session ID: 2885d32c-bbdc-4d69-adac-d4ea88d59dcf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at amazon10ScenariosParallelTesting.Books.book(Books.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Books@576d5deb]" started-at="2024-06-23T13:40:27 IST" name="quit" finished-at="2024-06-23T13:40:49 IST" duration-ms="21282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Books -->
+      <class name="amazon10ScenariosParallelTesting.Redmi">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@51c668e3]" started-at="2024-06-23T13:48:15 IST" name="launch" finished-at="2024-06-23T13:48:39 IST" duration-ms="24416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="redmicheck()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@51c668e3]" started-at="2024-06-23T13:48:39 IST" name="redmicheck" finished-at="2024-06-23T13:49:50 IST" duration-ms="70669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redmicheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Redmi@51c668e3]" started-at="2024-06-23T13:49:50 IST" name="quit" finished-at="2024-06-23T13:49:54 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Redmi -->
+      <class name="amazon10ScenariosParallelTesting.Mobile">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@2e6a8155]" started-at="2024-06-23T13:49:54 IST" name="launch" finished-at="2024-06-23T13:50:17 IST" duration-ms="22873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchmobile()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@2e6a8155]" started-at="2024-06-23T13:50:17 IST" name="searchmobile" finished-at="2024-06-23T13:50:23 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon10ScenariosParallelTesting.Mobile@2e6a8155]" started-at="2024-06-23T13:50:23 IST" name="quit" finished-at="2024-06-23T13:50:26 IST" duration-ms="3665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mobile -->
+    </test> <!-- Test on Firefox -->
+  </suite> <!-- Suite -->
 </testng-results>
