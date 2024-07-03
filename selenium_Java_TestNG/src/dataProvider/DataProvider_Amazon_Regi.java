@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class DataProvider_Amazon_Regi
 {
-	@DataProvider(name="data1")
+	@DataProvider()
 	public Object[][] regi()
 	{
 		Object a [][]=new Object[5][3];
@@ -35,7 +35,7 @@ public class DataProvider_Amazon_Regi
 		return a;
 	}
 	
-	@Test(dataProvider = "data1")
+	@Test(dataProvider = "regi")
 	public void registration(String name,String ph,String pwd)
 	{
 		ChromeDriver driver= new ChromeDriver();

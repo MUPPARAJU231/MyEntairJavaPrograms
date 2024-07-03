@@ -16,17 +16,23 @@ public class LaunchQuit
 	@Parameters("browser")
 	public void launch(String nameofbrowser)
 	{
-		if(nameofbrowser.equals("chrome"))
+		switch (nameofbrowser) {
+		case "chrome": 
 		{
-		driver=new ChromeDriver();
+			driver=new ChromeDriver();
 		}
-		if(nameofbrowser.equals("edge"))
+		break;
+		case "edge": 
 		{
-		driver=new EdgeDriver();
+			driver=new EdgeDriver();
 		}
-		if(nameofbrowser.equals("firefox"))
+		break;
+		case "firefox": 
 		{
-		driver=new FirefoxDriver();
+			driver=new FirefoxDriver();
+		}
+		break;
+		default:System.err.println("Invalid Browser");
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();

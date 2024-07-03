@@ -1,5 +1,7 @@
 package amazon10ScenariosParallelTesting;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -9,9 +11,8 @@ import org.testng.annotations.Test;
 public class Mango extends LaunchQuit
 {
 	 @Test
-     public void mango() throws InterruptedException 
+     public void mango()
      {
-		 Thread.sleep(2000);
  		WebElement dd=driver.findElement(By.id("searchDropdownBox"));
  		dd.click();
  		Select s=new Select(dd);
@@ -19,5 +20,8 @@ public class Mango extends LaunchQuit
  		WebElement mango=driver.findElement(By.id("twotabsearchtextbox"));
  		mango.sendKeys("mango");
  		mango.sendKeys(Keys.ENTER);
+ 		
+ 		WebElement fresh_logo=driver.findElement(By.xpath("//a[@href=\"/alm/storefront?almBrandId=ctnow&ref=fs_dsk_sn_logo\"]"));
+ 		assertEquals(fresh_logo.isDisplayed(), true, "No Logo");
      }
 }

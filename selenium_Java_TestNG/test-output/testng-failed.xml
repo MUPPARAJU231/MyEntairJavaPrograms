@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test on Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon10ScenariosParallelTesting.Books">
-        <methods>
-          <include name="launch"/>
-          <include name="book"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon10ScenariosParallelTesting.Books -->
       <class name="amazon10ScenariosParallelTesting.Mango">
         <methods>
-          <include name="launch"/>
           <include name="mango"/>
-          <include name="quit"/>
         </methods>
       </class> <!-- amazon10ScenariosParallelTesting.Mango -->
-      <class name="amazon10ScenariosParallelTesting.Camera35">
-        <methods>
-          <include name="launch"/>
-          <include name="camera"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon10ScenariosParallelTesting.Camera35 -->
-      <class name="amazon10ScenariosParallelTesting.DealsofTheDay">
-        <methods>
-          <include name="launch"/>
-          <include name="deal"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon10ScenariosParallelTesting.DealsofTheDay -->
     </classes>
-  </test> <!-- Test on Firefox(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

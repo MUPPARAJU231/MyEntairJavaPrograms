@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataProvider.DP_Facebook_regi">
+      <class name="amazon10ScenariosParallelTesting.Mango">
         <methods>
-          <include name="registration"/>
+          <include name="mango"/>
         </methods>
-      </class> <!-- dataProvider.DP_Facebook_regi -->
+      </class> <!-- amazon10ScenariosParallelTesting.Mango -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

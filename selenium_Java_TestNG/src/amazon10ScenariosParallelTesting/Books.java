@@ -1,5 +1,8 @@
 package amazon10ScenariosParallelTesting;
 
+import static org.testng.Assert.assertEquals;
+import java.util.Iterator;
+import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -11,7 +14,6 @@ public class Books extends LaunchQuit
 	 @Test
      public void book() throws InterruptedException 
      {
-		 Thread.sleep(2000);
  		WebElement dd=driver.findElement(By.id("searchDropdownBox"));
  		dd.click();
  		Select s=new Select(dd);
@@ -22,5 +24,13 @@ public class Books extends LaunchQuit
  		Thread.sleep(2000);
  		WebElement book1=driver.findElement(By.xpath("//span[.='The Power of Your Subconscious Mind: Original Edition | Premium Paperback']"));
  		book1.click();
+
+ 		Set<String> s1=driver.getWindowHandles();
+ 		Iterator<String> p_cid= s1.iterator();
+ 		String p_id=p_cid.next();
+ 		String c_id=p_cid.next();
+ 		driver.switchTo().window(c_id);
+ 		WebElement addtocart=driver.findElement(By.id("add-to-cart-button"));
+ 		assertEquals(addtocart.isDisplayed(), true);
      }
 }
